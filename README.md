@@ -2,6 +2,12 @@
 
 Setting Text ForeGround Color. This can be used with Print Statement.
 
+## Installation
+
+```bash
+pip install bcolors
+```
+
 ## Usage
 
 ```python
