@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="bcolors",
-    version='1.0.3',
+    version='1.0.4',
     author="Yogesh Sharma",
     author_email="yks0000@gmail.com",
     description="A module for coloring print statement.",
@@ -23,8 +23,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
         'Natural Language :: English',
     ],
-    package_dir={"": "bcolors"},
-    packages=setuptools.find_packages(where=""),
+    packages=["bcolors"],
     python_requires=">=3.6",
 )
 
