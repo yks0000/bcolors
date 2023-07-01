@@ -24,7 +24,7 @@ setuptools.setup(
         'Natural Language :: English',
     ],
     package_dir={"": "bcolors"},
-    packages=setuptools.find_packages(where=""),
+    packages=packages=["bcolors"],
     python_requires=">=3.6",
 )
 
