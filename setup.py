@@ -23,7 +23,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
         'Natural Language :: English',
     ],
-    package_dir={"": "bcolors"},
     packages=["bcolors"],
     python_requires=">=3.6",
 )
